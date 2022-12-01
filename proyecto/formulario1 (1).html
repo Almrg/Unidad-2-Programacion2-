@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <title>Tienda </title>
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     <link rel="stylesheet" type="text/css" href="css/mainstyle.css" />
+                                     
+ </head>
+
+ <body>
+  <header>
+  
+  </header>
+ 
+ <!--xxxxxxxxxxxxxxxxxxxxxxxxx-->
+  <!--- objeto formulario -->
+    <form name= "cajero" id="cajero" action="altas.php" method="post">
+      <div class="formulario" align="center">
+        <ul>
+            <li>
+                <h2>Tienda</h2>
+            </li>
+			    
+				<li>
+                <label for="codigo"> codigo: </label>
+                <input name="codigo" type="codigo" required id="codigo"  placeholder="Codigo" /> 
+            </li>
+            <li>
+                <label for="nombre">nombre:</label>
+                <input name="nombre" type="text" required id="nombre"  placeholder="Escribe nombre del producto" requiered/>
+                     
+            </li>
+            <li>
+                <label for="categorias"> categorias:</label>
+                <input name="categorias" type="categorias" required id="categorias"  placeholder="Categorias" /> 
+            </li>
+            <li>
+                 <label for="precio">precio:</label>
+                 <input name="precio" type="text" required id="precio"  placeholder="Precio"/>
+            </li>
+                               
+            <li>
+                 <label for="cantidad">Cantidad:</label>
+                 <input name="cantidad" type="cantidad"  id="cantidad"  placeholder="Cantidad" requiered/>
+            </li>
+            <li>
+                 <button name="Enviar" class="submit" type="submit">Guardar </button>
+                 <button class="submit" type="reset"> Limpiar</button>
+            </li>
+        </ul>
+	  </div>
+    </form>
+    <!--xxxxxxxxxxxxxxxxxxxxxxxxx-->
+    <div id="footer">
+    </div>
+ </body>
+
+</html>
